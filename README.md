@@ -22,6 +22,8 @@ The token is obtained by the first of whichever is set:
 * The `VAULT_TOKEN` environment variable.
 * The `~/.vault-token` file.
 
+The mount point is obtained from the MOUNT_POINT environment variable.
+
 There is no default value for the Vault token. It must be set, or the script will fail.
 
 ## Usage
